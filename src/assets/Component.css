@@ -1,0 +1,171 @@
+.homecenter{
+    margin: 0 auto; 
+}
+.ExploreContent{
+    margin: 0 auto; 
+}
+.sidemenu{
+    height: 100vh;
+    position: fixed;
+    width: 19%;
+    border-right: solid 1px rgb(219, 219, 219);
+    background-color: white;
+}
+.sidemenu_content{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+
+}
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+}
+.navlinks_title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: unset;
+    width: 90%;
+    border-radius: 25px;
+}
+.navlinks_title:hover{
+    background-color: rgb(245, 245, 245) ;
+    padding-left: 0.5rem;
+}
+.navlinks_title_activeStyle:hover{
+    background-color: rgb(245, 245, 245) ;
+    padding-left: 0.5rem;
+
+}
+.navlinks_title svg{
+    width: 25px;
+}
+.navlinks_title img{
+    width: 25px;
+}
+.navlinks_title_activeStyle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ font-weight: bold;   
+ text-decoration: none;
+ color: unset;
+ width: 90%;
+ border-radius: 25px;
+}
+.navlinks_title_activeStyle svg{
+    fill: black;
+    width: 25px;
+}
+.navlinks_title_activeStyle img{
+    width: 25px;
+}
+.StoriesSec{
+    background-color: white;
+    border: solid 1px rgb(219, 219, 219);
+    width: 40vw;
+    display: flex;
+    overflow: scroll;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 30px;
+    gap: 6%;
+    margin-left: 50px;
+}
+.story_pic{
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+.profile_story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+
+}
+.story_name{
+    font-size: 12px;
+}
+/* Feed */
+.home_feed{
+    margin-top: 10%;
+    margin-left: 50px;
+
+}
+.feed_cards{
+    border: solid 1px rgb(219, 219, 219);
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.feed_cards svg{
+    width: 35px;
+}
+.feed_profilename{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.feed_media{
+    background: rgb(245, 245, 245);
+    height: 60vh;
+}
+.feed_reaction{
+    display: flex;
+    justify-content: space-between;
+}
+.feed_commentcount button{
+    background: none;
+    outline: none;
+    border: none;
+    width: fit-content;
+    font-size: 16px;
+    margin: -15px auto;
+    padding: unset;
+    color: rgb(142,142,142);
+    cursor: pointer;
+}
+.feed_description_content{
+    padding: 1rem;
+}
+.feed_commentlist{
+    font-size: 14px;
+    line-height: 15px;
+}
+.feed_commentInput{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(219, 219, 219);
+    padding-top: 0.5rem;
+
+}
+.feed_commentInput input{
+    border: none;
+    outline: none;
+    width: 85%;
+    height: 25px;
+    font-size: 14px;
+}
+.feed_commentInput button{
+    background: none;
+    outline: none;
+    border: none;
+    width: fit-content;
+    font-size: 16px;
+    margin: -15px auto;
+    padding: unset;
+    font-weight: bold;
+    color: rgb(0, 181, 241);
+    cursor: pointer;
+}

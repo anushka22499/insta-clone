@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+    height: 100vh;
+
+}
+.ExploreContent{
+    background-color: rgb(250, 250, 250);
+}
+.ExplorePage{
+    display: flex;
+    justify-content: space-between;
+}
